@@ -3,8 +3,3 @@ spring:
     mongodb:
       uri: mongodb+srv://dreamcatcher:@cluster0.ydob3z7.mongodb.net/?retryWrites=true&w=majority
       database: dreamcatcher
-      uri: mongodb://localhogst:27017/dreamcatcher
-#      port: 27017
-#      authentication-database: tastekim
-#      database: dreamcatcher
-#      username: dreamcatcher

@@ -1,6 +1,6 @@
 package dream.dreamcatcher_bakcend_java.controller;
 
-import dream.dreamcatcher_bakcend_java.model.Dream;
+import dream.dreamcatcher_bakcend_java.model.Dreams;
 import dream.dreamcatcher_bakcend_java.service.DreamService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,7 +14,7 @@ public class DreamController {
     private final DreamService dreamService;
 
     @PostMapping("/api/dream/upload")
-    public Dream dreamInsert(@RequestBody Dream dream) {
-        return dreamService.dreamInsert(dream);
+    public Dreams dreamInsert(@RequestBody Dreams dreams) {
+        return dreamService.dreamInsert(dreams);
     }
 }
